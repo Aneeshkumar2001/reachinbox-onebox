@@ -15,7 +15,7 @@ function OneBox() {
     } else if (!localStorage.getItem("token")) {
       navigate("/login");
     }
-  }, [token, navigate]);
+  }, [token]);
 
   return (
     <div className="h-screen w-screen dark:bg-black bg-white pl-14">
