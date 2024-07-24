@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 export default function SignUp() {
   const redirectToGoogleLogin = () => {
     window.location.href =
-      "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://frontend.com";
+      "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-onebox-j8xot0s3p-aneeshkumar-ms-projects.vercel.app";
   };
 
   return (
